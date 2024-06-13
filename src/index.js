@@ -11,6 +11,12 @@ app.get("/throw", async (req, res, next) => {
   });
 });
 
+app.get("/custom", async (req, res, next) => {
+  await errorHandling.throw().catch((error) => {
+    throw "Just error";
+  });
+});
+
 app.get("/throw_new", async (req, res, next) => {
   await errorHandling.throw().catch((error) => {
     throw new Error(`/throw_New : ${error}`);
