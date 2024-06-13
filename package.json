@@ -1,0 +1,23 @@
+{
+  "name": "study_express_error_handling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/index"
+  },
+  "keywords": [
+    "express",
+    "express-async-errors"
+  ],
+  "author": "BeigeWoods",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
