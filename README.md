@@ -16,7 +16,7 @@ Keep in mind a content of traced stack also will be completely different.
 
 ### express-async-errors
 
-라이브러리는 모든 `throw`문은 다 처리한다고 설명한다.
+라이브러리는 모든 `throw`문은 다 처리한다고 설명한다.  
 The library explains that can handle all `throw` statement.
 
 > [If you want to pass an error, just throw a normal exception](https://www.npmjs.com/package/express-async-errors)
